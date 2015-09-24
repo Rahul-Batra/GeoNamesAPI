@@ -1,0 +1,1004 @@
+db.createCollection("continentMapping")
+db.continentMapping.insert([
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Antarctica",
+				"continent": "AN"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Antarctica",
+				"continent": "AN"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Antarctica",
+				"continent": "AN"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Antarctica",
+				"continent": "AN"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Antarctica",
+				"continent": "AN"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "South America",
+				"continent": "SA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "North America",
+				"continent": "NA"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Oceania",
+				"continent": "OC"
+			},
+			{
+				"continentName": "Europe",
+				"continent": "EU"
+			},
+			{
+				"continentName": "Asia",
+				"continent": "AS"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			},
+			{
+				"continentName": "Africa",
+				"continent": "AF"
+			}
+		]
+)
