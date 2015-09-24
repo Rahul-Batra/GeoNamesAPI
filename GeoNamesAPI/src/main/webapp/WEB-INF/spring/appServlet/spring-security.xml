@@ -1,0 +1,37 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:security="http://www.springframework.org/schema/security" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd    
+                        http://www.springframework.org/schema/security  http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <security:http auto-config="true">
+        <security:intercept-url pattern="/file**" access="hasRole('ROLE_USER')" />
+        <security:intercept-url pattern="/file/**" access="hasRole('ROLE_USER')" />
+         <security:intercept-url pattern="/upload**" access="hasRole('ROLE_USER')" />
+             <security:intercept-url pattern="/upload/**" access="hasRole('ROLE_USER')" />
+		   <security:intercept-url pattern="/dashboard_upload**" access="hasRole('ROLE_USER')" />
+		    <security:intercept-url pattern="/dashboard_upload/**" access="hasRole('ROLE_USER')" />
+		     <security:intercept-url pattern="/search_update**" access="hasRole('ROLE_USER')" />
+		      <security:intercept-url pattern="/search_update/**" access="hasRole('ROLE_USER')" />
+		
+        <security:form-login 
+		    login-page="/login" 
+		    default-target-url="/dashboard" 
+			authentication-failure-url="/login?error" 
+			username-parameter="username"
+			password-parameter="password" />
+		<security:logout logout-success-url="/login?logout"  />
+		<!-- enable csrf protection -->
+		<security:csrf />
+    </security:http>
+       
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <security:user-service>
+                <security:user name="admin" password="admin" authorities="ROLE_USER" />
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
+    
+
+</beans>
